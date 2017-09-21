@@ -1,0 +1,129 @@
+.sj-align-center {
+	text-align: center;
+}
+
+.sj-align-left {
+	text-align: left;
+}
+
+.sj-align-right {
+	text-align: right;
+}
+
+.sj-v-align-middle {
+	vertical-align: middle;
+}
+
+.sj-timesheet-time-wrapper {
+	background: #ccc;
+	padding: 10px;
+	margin-bottom: 15px;
+}
+
+.sj-field-wrapper {
+	margin-bottom: 10px;
+}
+
+.sj-field-wrapper label {
+    width: 160px;
+	display: inline-block;
+}
+
+.sj-field-wrapper input,
+.sj-field-wrapper select {
+    width: 320px;
+}
+
+.sj-field-wrapper #login_time,
+.sj-field-wrapper #logout_time {
+	width: 200px;
+	margin-right: 10px;
+}
+
+.sj-field-wrapper #login_convention,
+.sj-field-wrapper #logout_convention {
+	width: 100px;
+	margin-left: 10px;
+}
+
+.sj-field-wrapper #task_time_hr,
+.sj-field-wrapper #task_time_min,
+.sj-field-wrapper #lunch_hr,
+.sj-field-wrapper #lunch_min {
+	width: 150px;
+}
+
+.sj-field-wrapper #lunch_hr,
+.sj-field-wrapper #task_time_hr {
+	margin-right: 10px;
+}
+
+.sj-field-wrapper #lunch_min,
+.sj-field-wrapper #task_time_min {
+	margin-left: 10px;
+}
+
+.sj-field-submit input {
+	max-width: 560px;
+	width: 100%;
+	margin: 0 auto;
+	display: block;
+}
+.sj-task-wrapper,
+.sj-sub-task-wrapper {
+	position: relative;
+}
+
+.sj-task-wrapper {
+	background: #ccc;
+	padding: 10px;
+	margin-bottom: 15px;
+}
+
+.sj-sub-task-wrapper {
+	background: #d7d7d7;
+	padding: 10px 20px;
+	margin-bottom: 15px;	
+}
+
+.sj-add-new-sub-task {
+	text-align: right;
+}
+.sj-button,
+.sj-add-new-task .button,
+.sj-add-new-sub-task .button {
+	cursor: pointer;
+	border-radius: 2px;
+    padding: 10px;
+    font-size: 10px;
+    line-height: 12px;
+    color: #ffffff;
+    border-color: #0274be;
+    display: inline-block;
+    background-color: #0274be;
+}
+
+/* Preview */
+.sj-timesheet-preview table {
+    width: auto;
+}
+
+.sj-timesheet-preview table,
+.sj-timesheet-preview th,
+.sj-timesheet-preview td {
+    border-color: #ccc;
+}
+
+.sj-timesheet-preview {
+    max-width: 720px;
+}
+
+.sj-timesheet-preview .sj-edit-timesheet {
+    margin-right: 10px;
+    line-height: 20px;
+}
+
+.sj-timesheet-preview .sj-send-timesheet {
+    margin-left: 10px;
+    line-height: 20px;
+}
