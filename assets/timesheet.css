@@ -74,9 +74,12 @@
 	position: relative;
 }
 
+.sj-task-repeater {
+    padding: 10px;
+    background: #ccc;
+    margin-bottom: 15px;
+}
 .sj-task-wrapper {
-	background: #ccc;
-	padding: 10px;
 	margin-bottom: 15px;
 }
 
