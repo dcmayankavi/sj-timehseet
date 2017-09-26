@@ -133,7 +133,8 @@ if ( ! class_exists( 'SJ_Timesheet_Shortcode' ) ) {
 
 			if ( isset( $_POST[ 'sj-timesheet-send-nonce' ] ) && wp_verify_nonce( $_POST[ 'sj-timesheet-send-nonce' ], 'sj-timesheet-send' ) ) {
 				
-				$timesheet = $this->preview_timesheet( $saved_data );
+				$saved_data 	= get_option( $option_name );
+				$timesheet 		= $this->preview_timesheet( $saved_data );
 
 				$to 		= $args['to_email'];
 				$subject 	= 'Timesheet - '.date('d F Y');
