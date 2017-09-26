@@ -243,7 +243,7 @@ if ( ! class_exists( 'SJ_Timesheet_Shortcode' ) ) {
 	    				$output .= '<input type="text" id="logout_time" name="logout[time]" placeholder="Logout Time" value="' . $saved_data['logout']['time'] . '">';
 	    				$output .= '<select id="logout_convention" name="logout[convention]">';
 	    					$output .= '<option '.selected( $saved_data['logout']['convention'], 'AM', false ).' value="AM">AM</option>';
-	    					$output .= '<option '.selected( $saved_data['logout']['convention'], 'PM', false ).' value="AM">PM</option>';
+	    					$output .= '<option '.selected( $saved_data['logout']['convention'], 'PM', false ).' value="PM">PM</option>';
 	    				$output .= '</select>';
 	    			$output .= '</div>';
 
